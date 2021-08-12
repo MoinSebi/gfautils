@@ -1,0 +1,27 @@
+package:
+  name: gfautils
+  version: '0.9'
+
+source:
+#  git_url: https://github.com/ChriKub/gfautils
+#  git_rev: v0.9
+#  sha256: 208a4cdaa11b08902bbb039cf435c572f4ca43fa78bc9d345a2352be50555c86
+#  url: https://github.com/ekg/seqwish/archive/v0.2.tar.gz  
+
+build:
+  number: '1'
+
+requirements:
+  build:
+    - python>=3.6
+    - setuptools
+  run:
+    - python>=3.6
+
+#test:
+#  commands:
+#    - exit 1
+#    - seqwish 2>&1 | grep 'OPTIONS'
+
+#about:
+#  home: https://github.com/ChriKub/gfautils
